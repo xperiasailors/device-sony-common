@@ -1,0 +1,2 @@
+service vendor.pd_mapper /odm/bin/pd-mapper
+     class core

@@ -1,0 +1,8 @@
+service vendor.cdsprpcd /odm/bin/cdsprpcd
+   class main
+   user system
+   group system
+   disabled
+
+on property:vendor.qcom.cdspup=1
+    enable vendor.cdsprpcd
